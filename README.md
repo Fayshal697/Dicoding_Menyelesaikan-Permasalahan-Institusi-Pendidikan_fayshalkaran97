@@ -71,23 +71,9 @@ streamlit run app.py
 
 Aplikasi akan terbuka di browser pada `http://localhost:8501`.
 
-**Cara menggunakan prototype:**
-1. Isi data akademik mahasiswa (nilai, jumlah unit yang lulus, dll.)
-2. Isi data demografis dan finansial (gender, beasiswa, status SPP, dll.)
-3. Klik tombol **"Prediksi Sekarang"**
-4. Lihat hasil prediksi risiko dropout beserta rekomendasi intervensi
-
 > **Link Prototype (Streamlit Community Cloud):**
-> 🔗 [https://jaya-jaya-dropout-prediction.streamlit.app](https://jaya-jaya-dropout-prediction.streamlit.app)
-> *(Ganti link ini dengan URL deployment Anda setelah deploy ke Streamlit Cloud)*
+> 🔗 [https://dicodingmenyelesaikan-permasalahan-institusi-pendidikanfayshal.streamlit.app/](https://dicodingmenyelesaikan-permasalahan-institusi-pendidikanfayshal.streamlit.app/)
 
-**Cara deploy ke Streamlit Community Cloud:**
-1. Upload semua file (`app.py`, `model.pkl`, `scaler.pkl`, `feature_names.pkl`, `data.csv`, `requirements.txt`) ke GitHub
-2. Buka [streamlit.io/cloud](https://streamlit.io/cloud) dan login
-3. Klik **New App** → pilih repository dan file `app.py`
-4. Klik **Deploy**
-
----
 
 ## Conclusion
 
