@@ -26,7 +26,7 @@ Cakupan proyek yang dikerjakan meliputi:
 ### Persiapan
 
 **Sumber data:**
-Dataset diperoleh dari Jaya Jaya Institut, tersedia di file `https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv` (4.424 data mahasiswa, 36 fitur + 1 kolom target).
+ `https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv` 
 
 **Setup environment:**
 
@@ -52,6 +52,11 @@ Dashboard bisnis dibuat menggunakan **Metabase** (atau Tableau/Looker Studio) un
 > docker run -d -p 3000:3000 --name metabase metabase/metabase:v0.46.4
 > ```
 > Kemudian buka `http://localhost:3000` di browser.
+
+### Akses Dashboard Metabase
+
+Email: fayshalathilla@mail.com  
+Password: kamumahir3
 
 ---
 
