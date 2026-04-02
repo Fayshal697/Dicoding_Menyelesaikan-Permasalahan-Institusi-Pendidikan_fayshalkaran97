@@ -14,9 +14,9 @@ st.set_page_config(
 # ─── Load Artifacts ─────────────────────────────────────────────────────────────
 @st.cache_resource
 def load_artifacts():
-    model        = joblib.load("model\\model.joblib")
-    scaler       = joblib.load("model\\scaler.pkl")
-    feature_names = joblib.load("model\\feature_names.pkl")
+    model        = joblib.load("model/model.joblib")
+    scaler       = joblib.load("model/scaler.pkl")
+    feature_names = joblib.load("model/feature_names.pkl")
     return model, scaler, feature_names
 
 model, scaler, feature_names = load_artifacts()
